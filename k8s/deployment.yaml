@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: petclinic
-          image: 884002395647.dkr.ecr.eu-central-1.amazonaws.com/user13-cluster-repo:v1   # ← CI ⑦ 이 자동으로 바꾸는 줄
+          image: 884002395647.dkr.ecr.eu-central-1.amazonaws.com/user13-cluster-repo:c739e5a38c1102826945283f33bfee0911ab2242
           ports:
             - containerPort: 8080   # Spring Boot 기본 포트
           resources:
